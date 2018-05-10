@@ -1,4 +1,4 @@
-package vista;
+package control;
 
 public class ParaUI {
 

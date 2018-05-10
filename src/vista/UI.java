@@ -71,13 +71,14 @@ public class UI extends JFrame {
 		alta.setLayout(new BorderLayout(0, 0));
 		
 		JLabel lblNombre = new JLabel("NOMBRE");
-		lblNombre.setPreferredSize(new Dimension(42, 150));
+		lblNombre.setPreferredSize(new Dimension(42, 70));
 		lblNombre.setForeground(new Color(0, 0, 128));
 		lblNombre.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNombre.setFont(new Font("Tahoma", Font.BOLD, 25));
 		alta.add(lblNombre, BorderLayout.NORTH);
 		
 		JPanel panel_3 = new JPanel();
+		panel_3.setPreferredSize(new Dimension(10, 15));
 		alta.add(panel_3, BorderLayout.CENTER);
 		panel_3.setLayout(new BorderLayout(0, 0));
 		
